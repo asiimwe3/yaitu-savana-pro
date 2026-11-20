@@ -89,8 +89,8 @@ footer a:hover{color:var(--amber)}.fine{border-top:1px solid rgba(255,255,255,.1
 }
 
 /* Brand lockup on the About page and in the footer */
-.logo-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.4rem 1.6rem;display:grid;place-items:center;box-shadow:0 10px 30px rgba(10,26,47,.08)}
-.logo-card img{width:100%;max-width:340px;height:auto;display:block}
+.logo-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:2rem 2.2rem;display:grid;place-items:center;box-shadow:0 10px 30px rgba(10,26,47,.08)}
+.logo-card img{width:100%;max-width:300px;height:auto;display:block;border-radius:0 !important;box-shadow:none !important;background:#fff}
 .foot-logo{display:inline-block;background:#fff;border-radius:12px;padding:.55rem .8rem;margin:0 0 .9rem}
 .foot-logo img{height:56px;width:auto;display:block}
 @media (max-width:640px){.brand img{height:34px}}
