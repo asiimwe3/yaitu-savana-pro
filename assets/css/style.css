@@ -13,7 +13,7 @@ p{margin:0 0 1em}.lead{font-size:clamp(1.02rem,1.5vw,1.16rem);color:#D7E3F2}.mut
 header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;gap:1.4rem;padding:.7rem 0}
 .brand{display:flex;align-items:center;gap:.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.1}
-.brand img{width:42px;height:42px;border-radius:11px}
+.brand img{width:auto;height:40px;border-radius:0;flex:none}
 .brand small{display:block;font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .nav-links{display:flex;gap:1.1rem;margin-left:auto;font-size:.95rem;font-weight:600;color:#2A3B52}
 .nav-links a{padding:.35rem 0;border-bottom:2px solid transparent}
@@ -87,3 +87,10 @@ footer a:hover{color:var(--amber)}.fine{border-top:1px solid rgba(255,255,255,.1
   font-size:.78rem;font-weight:600;letter-spacing:.01em;
   color:var(--muted);background:#F7F9FC;border-top:1px solid var(--line);
 }
+
+/* Brand lockup on the About page and in the footer */
+.logo-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.4rem 1.6rem;display:grid;place-items:center;box-shadow:0 10px 30px rgba(10,26,47,.08)}
+.logo-card img{width:100%;max-width:340px;height:auto;display:block}
+.foot-logo{display:inline-block;background:#fff;border-radius:12px;padding:.55rem .8rem;margin:0 0 .9rem}
+.foot-logo img{height:56px;width:auto;display:block}
+@media (max-width:640px){.brand img{height:34px}}
