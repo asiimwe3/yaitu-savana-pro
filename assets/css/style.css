@@ -94,3 +94,7 @@ footer a:hover{color:var(--amber)}.fine{border-top:1px solid rgba(255,255,255,.1
 .foot-logo{display:inline-block;background:#fff;border-radius:12px;padding:.55rem .8rem;margin:0 0 .9rem}
 .foot-logo img{height:56px;width:auto;display:block}
 @media (max-width:640px){.brand img{height:34px}}
+
+/* hero: first-priority number is the button; the second line is quieter text */
+.hero-alt{margin:.75rem 0 0;font-size:.95rem;font-weight:600;color:#C9D8EA}
+.hero-alt a{color:#fff;font-weight:700;text-decoration:underline;text-underline-offset:3px}
